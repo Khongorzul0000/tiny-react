@@ -1,0 +1,37 @@
+body{
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30vh;
+}
+.npt{
+    height: 35px;
+    width: 450px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+.btn{
+    height: 35px;
+    width: 50px;
+    border-radius:10px ;
+    border: 1px solid black;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gap{
+    gap: 10px;
+}
+.url{
+    font-size: 13px;
+    color: rgb(60, 59, 59);
+}
+
