@@ -48,6 +48,9 @@ export const Home = () => {
       })
       .catch(console.log);
   }, []);
+  if(url.length < 50){
+    console.log("dutuu")
+  }
 
   return (
     <div className={styles.background}>
@@ -70,8 +73,7 @@ export const Home = () => {
                 return (
                 
                   <div className={styles.block}>
-                    <a className={styles.local}>{give.url}</a>
-                   <hr></hr>
+                    <a className={styles.local}>{give.url.substring(0, 49)}</a>
                     <a className={styles.local}>http://localhost:3001/{give.baba}</a>
                   </div>
               
